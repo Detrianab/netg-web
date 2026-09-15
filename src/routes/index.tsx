@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Check, ShieldCheck, Wrench, Handshake, Timer } from "lucide-react";
 
-import heroVideo from "@/assets/hero-video.mp4.asset.json";
+import heroVideo from "@/assets/hero-video.mp4";
 import heroPoster from "@/assets/hero-poster.jpg";
 import { LogoLoop } from "@/components/LogoLoop";
 import { Reveal } from "@/components/Reveal";
