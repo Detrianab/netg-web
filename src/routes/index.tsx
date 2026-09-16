@@ -1,7 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Check, ShieldCheck, Wrench, Handshake, Timer } from "lucide-react";
 
-import heroVideo from "@/assets/hero-video.mp4";
 import heroPoster from "@/assets/hero-poster.jpg";
 import { LogoLoop } from "@/components/LogoLoop";
 import { Reveal } from "@/components/Reveal";
@@ -46,7 +45,7 @@ function Home() {
           playsInline
           preload="metadata"
           poster={heroPoster}
-          src={heroVideo.url}
+          src="/hero-video.mp4"
           className="pointer-events-none absolute inset-0 size-full object-cover opacity-45"
         />
         <div
