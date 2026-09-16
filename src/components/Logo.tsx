@@ -1,10 +1,9 @@
-import logoAsset from "@/assets/nextg-logo.png";
 import { cn } from "@/lib/utils";
 
 export function Logo({ className, inverted = false }: { className?: string; inverted?: boolean }) {
   return (
     <img
-      src={logoAsset.url}
+      src="/nextg-logo.png"
       alt="Next G Solutions Telecom, C.A."
       width={600}
       height={240}
